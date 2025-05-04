@@ -1,0 +1,19 @@
+/* Dark Theme Header */
+.page-dark {
+    background: #121212;
+    color: #fff;
+  }
+  .header-dark {
+    background-color: #1f1f1f !important;
+    color: #fff !important;
+  }
+  
+  /* Light Theme Header */
+  .page-light {
+    background: #f5f5f5;
+  }
+  .header-light {
+    background-color: #007bff !important;
+    color: white !important;
+  }
+  
