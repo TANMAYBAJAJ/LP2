@@ -1,0 +1,104 @@
+8.	Create version control account on GitHub and using Git commands to create repository and push your code to GitHub. step by step show steps
+
+
+ChatGPT said:
+Here's a step-by-step guide on how to create a GitHub account, create a repository, and push code to GitHub using Git commands:
+
+✅ Step 1: Create a GitHub Account
+Go to https://github.com.
+
+Click on Sign up.
+
+Enter your email, password, and username.
+
+Verify your email and follow the prompts to complete account creation.
+
+
+✅ Step 2: Install Git (if not already installed)
+Windows: Download from https://git-scm.com and install.
+
+macOS: Use Homebrew → brew install git
+
+Linux: Use package manager → sudo apt install git
+
+Verify Git is installed:
+
+bash
+Copy
+Edit
+git --version
+
+✅ Step 3: Configure Git
+bash
+Copy
+Edit
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+
+✅ Step 4: Create a GitHub Repository
+Login to GitHub.
+
+Click the + in the top-right → Select New repository.
+
+Give your repo a name (e.g., my-first-repo).
+
+Choose Public or Private.
+
+Don't initialize with README if you're pushing an existing local repo.
+
+Click Create repository.
+
+
+✅ Step 5: Create a Project Folder Locally
+bash
+Copy
+Edit
+mkdir my-first-repo
+cd my-first-repo
+Add a file (optional):
+
+bash
+Copy
+Edit
+echo "# My First Repo" > 
+
+✅ Step 6: Initialize Git Locally
+bash
+Copy
+Edit
+git init
+
+✅ Step 7: Add Files and Commit
+bash
+Copy
+Edit
+git add .
+git commit -m "Initial commit"
+
+✅ Step 8: Link Local Repo to GitHub
+Copy the repo URL from GitHub (e.g., https://github.com/yourusername/my-first-repo.git)
+
+bash
+Copy
+Edit
+git remote add origin https://github.com/yourusername/my-first-repo.git
+
+✅ Step 9: Push Code to GitHub
+bash
+Copy
+Edit
+git branch -M main  # Rename master to main (optional if using new Git)
+git push -u origin main
+🎉 Done!
+Go to your GitHub repo page to see your uploaded code.
+
+Would you like me to generate a screenshot-style mockup of the GitHub page or terminal output for visual aid?
+
+
+
+
+
+
+
+

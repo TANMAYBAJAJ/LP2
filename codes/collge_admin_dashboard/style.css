@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background-color: #1e1e2f;
+}
+
+.nav-link {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #343a40;
+    border-radius: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
