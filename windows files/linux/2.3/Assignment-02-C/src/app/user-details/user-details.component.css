@@ -1,0 +1,87 @@
+.profile-image-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    padding: 1rem;
+}
+
+.profile-info h4 {
+    margin: 0;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-label {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+    background: linear-gradient(45deg, #2196F3, #1976D2) !important;
+}
+
+.btn-light {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-light:hover {
+    background-color: #fff;
+    transform: translateY(-1px);
+}
+
+.btn-outline-primary,
+.btn-outline-danger {
+    border-width: 2px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-danger:hover {
+    transform: translateY(-1px);
+}
+
+.modal-content {
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-header {
+    background: linear-gradient(45deg, #2196F3, #1976D2);
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-footer {
+    border-top: 1px solid #eee;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,24 @@
+1)packet_sniffer
+
+pip install scapy
+python filename
+
+2)ddos
+run server.py
+pip install threading
+pip install request
+python filename
+
+3)ip_spoofing
+pip install scapy
+python filename
+
+4)dns
+
+pip install scapy
+python filename
+
+5)intrusion detection
+
+python filename 
+

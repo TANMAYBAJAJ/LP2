@@ -1,0 +1,80 @@
+{
+    "192.168.1.10": [
+        {
+            "attack_type": "Brute Force Attack",
+            "log_file": "user1.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.1.10 - Failed login attempt"
+        },
+        {
+            "attack_type": "Brute Force Attack",
+            "log_file": "user1.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.1.10 - Failed login attempt"
+        },
+        {
+            "attack_type": "Brute Force Attack",
+            "log_file": "user1.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.1.10 - Failed login attempt"
+        }
+    ],
+    "192.168.1.50": [
+        {
+            "attack_type": "Port Scanning",
+            "log_file": "user1.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.1.50 - Port scan detected"
+        }
+    ],
+    "192.168.2.20": [
+        {
+            "attack_type": "Brute Force Attack",
+            "log_file": "user2.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.2.20 - Failed login attempt"
+        },
+        {
+            "attack_type": "Brute Force Attack",
+            "log_file": "user2.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.2.20 - Failed login attempt"
+        },
+        {
+            "attack_type": "Brute Force Attack",
+            "log_file": "user2.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.2.20 - Failed login attempt"
+        }
+    ],
+    "192.168.2.30": [
+        {
+            "attack_type": "Malware Activity",
+            "log_file": "user2.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.2.30 - Suspicious traffic detected"
+        }
+    ],
+    "192.168.3.40": [
+        {
+            "attack_type": "Brute Force Attack",
+            "log_file": "user3.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.3.40 - Failed login attempt"
+        },
+        {
+            "attack_type": "Brute Force Attack",
+            "log_file": "user3.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.3.40 - Failed login attempt"
+        }
+    ],
+    "192.168.3.41": [
+        {
+            "attack_type": "Possible Intrusion",
+            "log_file": "user3.log",
+            "timestamp": "2025-05-04 22:06:05",
+            "log_entry": "192.168.3.41 - Unusual network activity"
+        }
+    ]
+}
